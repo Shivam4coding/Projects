@@ -1,0 +1,47 @@
+<!--
+1) Start the HTML document with `<!DOCTYPE html>` to indicate an HTML5 page.
+
+2) Open the `<html>` tag to wrap the whole webpage.
+
+3) Inside the `<head>` section:
+   a) Add `<meta charset="utf-8">` to support special characters.
+   b) Add `<meta name="viewport" content="width=device-width, initial-scale=1">`
+      to make the page responsive on mobile devices.
+   c) Link Bootstrap 4.5.2 CSS using the CDN link.
+      (This provides Bootstrap classes like container, bg-success, text-white, etc.)
+   d) Set the page title using `<title>Full width container</title>`.
+
+4) Inside the `<body>` section:
+   a) Create a Bootstrap container using `<div class="container ...">`.
+      - `.container` creates a responsive fixed-width container (not full width).
+      - `bg-success` gives a green background.
+      - `text-white` makes the text color white.
+
+5) Add content inside the container:
+   a) A heading `<h1>`: "My First Bootstrap Page".
+   b) A paragraph explaining it is inside a `.container`.
+   c) Another paragraph explaining `.container` provides a responsive fixed width layout.
+
+6) Close the `<div>`, `<body>`, and `<html>` tags to finish the page.
+
+7) Note (for clarity):
+   a) If you want a truly full-width container in Bootstrap, use `.container-fluid`
+      instead of `.container`.
+--><!DOCTYPE html>
+<html>
+   <head>
+      <meta charset=" utf-8">
+      <meta name = 'viewport' content = 'width=device-width, initial-scale=1'>
+      <link rel = 'stylesheet' href = 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css'>
+      <title>Full width container</title>
+   </head>
+   <body>
+      <div class = 'container bg-success text-white'>
+         <h1>My First Bootstrap Page</h1>
+         <p> this is a simple paragraph inside a bootstrap container.</p>
+         <p>bootstrap is a powerful front-end framework.</p>
+               <p>the .container class provides a responsive fixed width container.</p>
+            </div>
+         </body>
+      </title>
+      <html>
